@@ -32,6 +32,13 @@ class Validator
         }
     }
 
+    public function int()
+    {
+        if (! is_numeric($this->getPost($this->_field))) {
+            $this->setError("O campo {$this->_label} deve ser do tipo inteiro.");
+        }
+    }
+
     public function setError($msg)
     {
         $this->_errors[$this->_field][] = $msg;

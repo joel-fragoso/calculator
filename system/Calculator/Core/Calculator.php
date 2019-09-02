@@ -2,22 +2,10 @@
 
 namespace Calculator\Core;
 
-class Calculator
+class Calculator implements CalculatorInterface
 {
-    private $_data;
-
-    public function __construct()
+    public function calculate(int $firstNumber, int $secondNumber, OperatorInterface $operator): string
     {
-        $this->_data =& $_POST;
-    }
-
-    public function getData()
-    {
-        return $this->_data;
-    }
-
-    public function calculate()
-    {
-        return $this->_data;
+        return $operator->calculate($firstNumber, $secondNumber);
     }
 }

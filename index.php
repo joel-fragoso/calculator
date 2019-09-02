@@ -7,13 +7,24 @@ define('ROOTPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
 require_once ROOTPATH . 'vendor/autoload.php';
 
-$_POST = [
-    'first_number' => 1,
-    'second_number' => 2,
-    'operation_signal' => '+'
-];
+try {
 
-$calculator = new \Calculator\Core\Calculator();
-$calculator->calculate();
+    $_POST = [
+        'first_number' => 1,
+        'second_number' => 2,
+        'operation_signal' => '-'
+    ];
 
-var_dump($calculator);
+    $calculator = new \Calculator\Core\Calculator();
+
+    $calculatorWrapper = new \Calculator\Core\Wrappers\CalculatorWrapper($calculator);
+
+    $result = $calculatorWrapper->calculate($_POST['first_number'], $_POST['second_number'], $_POST['operation_signal']);
+
+    var_dump($result);
+
+} catch (\Exception $e) {
+
+    $e->getMessage();
+    
+}
