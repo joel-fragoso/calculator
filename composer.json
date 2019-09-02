@@ -11,5 +11,8 @@
             "App\\": "application/",
             "Calculator\\": "system/Calculator/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
     }
 }
