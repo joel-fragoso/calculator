@@ -4,27 +4,20 @@ error_reporting(-1);
 ini_set('display_errors', 1);
 
 define('ROOTPATH', __DIR__ . DIRECTORY_SEPARATOR);
+define('SYSPATH', ROOTPATH . 'system' . DIRECTORY_SEPARATOR);
+define('APPPATH', ROOTPATH . 'application' . DIRECTORY_SEPARATOR);
+define('VIEWS', APPPATH . 'Views' . DIRECTORY_SEPARATOR);
 
 require_once ROOTPATH . 'vendor/autoload.php';
 
-try {
+$class = isset($_GET['class']) ? '\App\Controllers\\' . $_GET['class'] : '\App\Controllers\HomeController';
 
-    $_POST = [
-        'first_number' => 1,
-        'second_number' => 2,
-        'operation_signal' => '-'
-    ];
+$method = isset($_GET['method']) ? strtolower($_GET['method']) : 'index';
 
-    $calculator = new \Calculator\Core\Calculator();
+unset($_GET['class'], $_GET['method']);
 
-    $calculatorWrapper = new \Calculator\Core\Wrappers\CalculatorWrapper($calculator);
+$params = isset($_GET) ? $_GET : [];
 
-    $result = $calculatorWrapper->calculate($_POST['first_number'], $_POST['second_number'], $_POST['operation_signal']);
+$controller = new $class();
 
-    var_dump($result);
-
-} catch (\Exception $e) {
-
-    $e->getMessage();
-    
-}
+call_user_func_array([$controller, $method], $params);
