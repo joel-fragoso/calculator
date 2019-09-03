@@ -1,0 +1,143 @@
+/* CSS */
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Light", sans-serif;
+    line-height: 1.5;
+}
+
+input,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+button:link,
+button:active,
+button:visited,
+button:focus {
+    outline: none;
+}
+
+.calculator {
+    width: 18.75rem;
+    margin: 0 auto;
+    background-color: green;
+}
+
+.calculator-head,
+.calculator-head input {
+    width: 100%;
+}
+
+.calculator-head input  {
+    text-align: right;
+    padding: 2.5rem 1rem 0.5rem;
+    background-color: #000;
+    font-family: "Helvetica Light", sans-serif;
+    font-size: 3rem;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.calculator-body,
+.calculator-body button {
+    width: 100%;
+}
+
+.calculator-body button {
+    padding: 1.2rem 0;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 1.5rem;
+    font-family: "Helvetica Light", sans-serif;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.calculator-body button:active {
+    background-color: #ddd !important;
+}
+
+.gray {
+    background-color: #E9E9E9 !important;
+}
+
+.orange {
+    background-color: orange !important;
+    color: #fff !important;
+    border-right: 1px solid #000;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.6666%;
+}
+
+.col-10 {
+    width: 83.3333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.6666%;
+}
+
+.col-7 {
+    width: 58.3333%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.6666%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.6666%;
+}
+
+.col-1 {
+    width: 8.3333%;
+}
