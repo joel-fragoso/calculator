@@ -26,67 +26,67 @@
                         <button class="btn-clear gray" type="button" name="button" value="AC">AC</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn gray" type="button" name="button" value="+/-">+/-</button>
+                        <button class="btn-invert-signal gray" type="button" name="button" value="+/-">+/-</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn gray" type="button" name="button" value="&#37;">&#37;</button>
+                        <button class="btn-percent gray" type="button" name="button" value="&#37;">&#37;</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn orange" type="button" name="button" value="&divide;">&divide;</button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-3">
-                        <button class="btn" type="button" name="button" value="7">7</button>
-                    </div>
-                    <div class="col-3">
-                        <button class="btn" type="button" name="button" value="8">8</button>
-                    </div>
-                    <div class="col-3">
-                        <button class="btn" type="button" name="button" value="9">9</button>
-                    </div>
-                    <div class="col-3">
-                        <button class="btn orange" type="button" name="button" value="&times;">&times;</button>
+                        <button class="btn-operator orange" type="button" name="button" value="/">/</button>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="4">4</button>
+                        <button class="btn-number" type="button" name="button" value="7">7</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="5">5</button>
+                        <button class="btn-number" type="button" name="button" value="8">8</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="6">6</button>
+                        <button class="btn-number" type="button" name="button" value="9">9</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn orange" type="button" name="button" value="&#43;">&#43;</button>
+                        <button class="btn-operator orange" type="button" name="button" value="*">*</button>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="1">1</button>
+                        <button class="btn-number" type="button" name="button" value="4">4</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="2">2</button>
+                        <button class="btn-number" type="button" name="button" value="5">5</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value="3">3</button>
+                        <button class="btn-number" type="button" name="button" value="6">6</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn orange" type="button" name="button" value="&#45;">&#45;</button>
+                        <button class="btn-operator orange" type="button" name="button" value="+">+</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn-number" type="button" name="button" value="1">1</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-number" type="button" name="button" value="2">2</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-number" type="button" name="button" value="3">3</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn-operator orange" type="button" name="button" value="-">-</button>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-6">
-                        <button class="btn" type="button" name="button" value="0">0</button>
+                        <button class="btn-number" type="button" name="button" value="0">0</button>
                     </div>
                     <div class="col-3">
-                        <button class="btn" type="button" name="button" value=",">,</button>
+                        <button class="btn-comma" type="button" name="button" value=".">.</button>
                     </div>
                     <div class="col-3">
                         <button class="btn-equal orange" type="button" name="button" value="=">=</button>
@@ -98,6 +98,7 @@
         </form>
 
         <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/application.js"></script>
+        <script src="assets/js/calculator.js"></script>
+        <!-- <script src="assets/js/application.js"></script> -->
     </body>
 </html>
