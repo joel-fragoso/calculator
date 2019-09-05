@@ -1,0 +1,20 @@
+.container
+    width: 100%
+    padding-left: 1rem
+    padding-right: 1rem
+
+.row
+    width: 100%
+
+@for $i from 1 through $columns
+    .col-#{$i}
+        width: 100% * $i / $columns
+        min-height: 1px
+        box-sizing: border-box
+
+        @each $key, $value in $grid-breakpoints
+            @include respond-to($key)
+                @if $value <= 480px
+                    width: 100%
+                @else if $value <= 768px
+                    width: 50%

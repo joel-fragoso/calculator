@@ -1,5 +1,10 @@
-
-
-@each $breakpoint, $value in $grid-breakpoints
-    @media only screen and(max-width: $value)
-        color: red
+/// Gestor Responsivo
+/// @access public
+/// @param {String} $breakpoint - Breakpoint
+/// @requires $breakpoints
+@mixin respond-to($breakpoint)
+    @if map-has-key($grid-breakpoints, $breakpoint)
+        @media only screen and (min-width: #{inspect(map-get($grid-breakpoints, $breakpoint))})
+            @content
+    @else
+        @error 'No value found for `#{$breakpoint}`. ' + 'Please make sure it is defined in `$breakpoints` map.'
