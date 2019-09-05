@@ -7,6 +7,7 @@
 .container
     width: 100%
     max-width: 1200px
+    margin: 0 auto
     @extend %padding
 
 
@@ -19,13 +20,15 @@
     box-sizing: border-box
     @include set-prefix(display, flex, $prefixes)
     @include set-prefix(align-items, center, $prefixes)
+    flex-wrap: wrap
+    flex-direction: row
 
 @for $i from 1 through $columns
     .col-#{$i}
         width: 100% * $i / $columns
         min-height: 1px
         box-sizing: border-box
-        background-color: red
+        border: 1px solid mediumspringgreen
 
         @each $key, $value in $grid-breakpoints
             @include respond-to($key)
