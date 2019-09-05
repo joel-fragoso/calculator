@@ -1,16 +1,27 @@
-.container
-    width: 100%
+/// Grid
+%padding
     padding-left: 1rem
     padding-right: 1rem
+    box-sizing: border-box
+
+.container
+    width: 1200px
+    @extend %padding
+
+
+.container-fluid
+    width: 100%
+    @extend %padding
 
 .row
     width: 100%
+    box-sizing: border-box
 
 @for $i from 1 through $columns
     .col-#{$i}
-        width: 100% * $i / $columns
         min-height: 1px
         box-sizing: border-box
+        background-color: mediumspringgreen
 
         @each $key, $value in $grid-breakpoints
             @include respond-to($key)
@@ -18,3 +29,5 @@
                     width: 100%
                 @else if $value <= 768px
                     width: 50%
+                @else
+                    width: 100% * $i / $columns

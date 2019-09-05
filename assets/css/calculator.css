@@ -591,351 +591,530 @@ table {
   padding: 0 5rem !important;
 }
 
-/* line 1, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
-.container {
-  width: 100%;
+/* line 2, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+.container, .container-fluid {
   padding-left: 1rem;
   padding-right: 1rem;
+  box-sizing: border-box;
 }
 
-/* line 6, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+/* line 7, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+.container {
+  width: 1200px;
+}
+
+/* line 12, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+.container-fluid {
+  width: 100%;
+}
+
+/* line 16, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .row {
   width: 100%;
+  box-sizing: border-box;
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-1 {
-  width: 8.33333%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-1 {
+    width: 8.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-1 {
+    width: 8.33333%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-2 {
-  width: 16.66667%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-2 {
+    width: 16.66667%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-2 {
+    width: 16.66667%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-3 {
-  width: 25%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-3 {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-3 {
+    width: 25%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-4 {
-  width: 33.33333%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-4 {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-4 {
+    width: 33.33333%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-5 {
-  width: 41.66667%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-5 {
+    width: 41.66667%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-5 {
+    width: 41.66667%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-6 {
-  width: 50%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-6 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-6 {
+    width: 50%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-7 {
-  width: 58.33333%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-7 {
+    width: 58.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-7 {
+    width: 58.33333%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-8 {
-  width: 66.66667%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-8 {
+    width: 66.66667%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-8 {
+    width: 66.66667%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-9 {
-  width: 75%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-9 {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-9 {
+    width: 75%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-10 {
-  width: 83.33333%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-10 {
+    width: 83.33333%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-10 {
+    width: 83.33333%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-11 {
-  width: 91.66667%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
     width: 50%;
   }
 }
 
-/* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-11 {
+    width: 91.66667%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-11 {
+    width: 91.66667%;
+  }
+}
+
+/* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
 .col-12 {
-  width: 100%;
   min-height: 1px;
   box-sizing: border-box;
+  background-color: mediumspringgreen;
 }
 
 @media only screen and (min-width: 320px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
     width: 100%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 10, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
     width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* line 21, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
+  .col-12 {
+    width: 100%;
   }
 }
 

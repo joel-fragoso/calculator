@@ -5,11 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
         <link rel="stylesheet" href="assets/css/application.css">
+        <link rel="stylesheet" href="assets/css/calculator.css">
         <title>Calculator</title>
     </head>
     <body>
 
-        <form class="calculator">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    col-12
+                </div>
+            </div>
+        </div>
+
+        <!-- <form class="calculator">
 
             <div class="calculator-head">
                 <div class="row">
@@ -95,7 +104,7 @@
 
             </div>
 
-        </form>
+        </form> -->
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/calculator.js"></script>
