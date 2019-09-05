@@ -1,27 +1,44 @@
-@for $i from 1 through 5
+@for $i from 0 through 6
     .m-#{$i}
-        margin: #{$i}rem !important
+        @if ($i == 0)
+            margin: #{$i} !important
+        @else
+            margin: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .mt-#{$i}
-        margin-top: #{$i}rem !important
-
-@for $i from 1 through 5
+        @if ($i == 0)
+            margin-top: #{$i} !important
+        @else
+            margin-top: #{$i}rem !important
+@for $i from 0 through 6
     .mb-#{$i}
-        margin-bottom: #{$i}rem !important
-
-@for $i from 1 through 5
+        @if ($i == 0)
+            margin-bottom: #{$i} !important
+        @else
+            margin-bottom: #{$i}rem !important
+@for $i from 0 through 6
     .ml-#{$i}
-        margin-left: #{$i}rem !important
-
-@for $i from 1 through 5
+        @if ($i == 0)
+            margin-left: #{$i} !important
+        @else
+            margin-left: #{$i}rem !important
+@for $i from 0 through 6
     .mr-#{$i}
-        margin-right: #{$i}rem !important
-
-@for $i from 1 through 5
+        @if ($i == 0)
+            margin-right: #{$i} !important
+        @else
+            margin-right: #{$i}rem !important
+@for $i from 0 through 6
     .my-#{$i}
-        margin: #{$i}rem 0 !important
+        @if ($i == 0)
+            margin: #{$i} 0 !important
+        @else
+            margin: #{$i}rem 0 !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .mx-#{$i}
-        margin: 0 #{$i}rem !important
+        @if ($i == 0)
+            margin: 0 #{$i} !important
+        @else
+            margin: 0 #{$i}rem !important

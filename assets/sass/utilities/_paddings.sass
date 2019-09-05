@@ -1,27 +1,48 @@
-@for $i from 1 through 5
+@for $i from 0 through 6
     .p-#{$i}
-        padding: #{$i}rem !important
+        @if ($i == 0)
+            padding: #{$i} !important
+        @else
+            padding: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .pt-#{$i}
-        padding-top: #{$i}rem !important
+        @if ($i == 0)
+            padding-top: #{$i} !important
+        @else
+            padding-top: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .pb-#{$i}
-        padding-bottom: #{$i}rem !important
+        @if ($i == 0)
+            padding-bottom: #{$i} !important
+        @else
+            padding-bottom: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .pl-#{$i}
-        padding-left: #{$i}rem !important
+        @if ($i == 0)
+            padding-left: #{$i} !important
+        @else
+            padding-left: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .pr-#{$i}
-        padding-right: #{$i}rem !important
+        @if ($i == 0)
+            padding-right: #{$i} !important
+        @else
+            padding-right: #{$i}rem !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .py-#{$i}
-        padding: #{$i}rem 0 !important
+        @if ($i == 0)
+            padding: #{$i} 0 !important
+        @else
+            padding: #{$i}rem 0 !important
 
-@for $i from 1 through 5
+@for $i from 0 through 6
     .px-#{$i}
-        padding: 0 #{$i}rem !important
+        @if ($i == 0)
+            padding: 0 #{$i} !important
+        @else
+            padding: 0 #{$i}rem !important
