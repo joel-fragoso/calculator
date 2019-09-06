@@ -25,7 +25,10 @@
 
 @for $i from 1 through $columns
     .col-#{$i}
-        width: 100% * $i / $columns
+        @if $i == '12'
+            width: 100%
+        @else
+            width: 100% * $i / $columns
         min-height: 1px
         box-sizing: border-box
         border: 1px solid mediumspringgreen
@@ -35,6 +38,9 @@
                 @if $value <= 480px
                     width: 100%
                 @else if $value <= 768px
-                    width: 50%
+                    @if $columns = 12
+                        width: 100%
+                    @else
+                        width: 50%
                 @else
                     width: 100% * $i / $columns

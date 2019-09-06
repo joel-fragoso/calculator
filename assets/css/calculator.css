@@ -793,7 +793,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -836,7 +836,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -879,7 +879,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -922,7 +922,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -965,7 +965,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1008,7 +1008,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1051,7 +1051,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1094,7 +1094,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1137,7 +1137,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1180,7 +1180,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1223,7 +1223,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -1266,7 +1266,7 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
-    width: 50%;
+    width: 100%;
   }
 }
 
