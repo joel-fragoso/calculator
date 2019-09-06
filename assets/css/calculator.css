@@ -776,14 +776,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
     width: 100%;
@@ -793,7 +793,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-1 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -819,14 +820,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
     width: 100%;
@@ -836,7 +837,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-2 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -862,14 +864,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
     width: 100%;
@@ -879,7 +881,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-3 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -905,14 +908,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
     width: 100%;
@@ -922,7 +925,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-4 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -948,14 +952,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
     width: 100%;
@@ -965,7 +969,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-5 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -991,14 +996,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
     width: 100%;
@@ -1008,7 +1013,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-6 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1034,14 +1040,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
     width: 100%;
@@ -1051,7 +1057,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-7 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1077,14 +1084,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
     width: 100%;
@@ -1094,7 +1101,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-8 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1120,14 +1128,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
     width: 100%;
@@ -1137,7 +1145,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-9 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1163,14 +1172,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
     width: 100%;
@@ -1180,7 +1189,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-10 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1206,14 +1216,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
     width: 100%;
@@ -1223,7 +1233,8 @@ table {
 @media only screen and (min-width: 768px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-11 {
-    width: 100%;
+    width: 50%;
+    align-self: flex-end;
   }
 }
 
@@ -1249,14 +1260,14 @@ table {
   border: 1px solid mediumspringgreen;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 0) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
     width: 100%;
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 320px) {
   /* line 27, /home/joel/Workspace/calculator/assets/sass/mixins/_grid.sass */
   .col-12 {
     width: 100%;

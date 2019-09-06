@@ -38,9 +38,10 @@
                 @if $value <= 480px
                     width: 100%
                 @else if $value <= 768px
-                    @if $columns = 12
+                    @if $i == 12
                         width: 100%
                     @else
                         width: 50%
+                        align-self: flex-end
                 @else
                     width: 100% * $i / $columns
