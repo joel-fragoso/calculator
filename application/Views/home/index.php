@@ -250,6 +250,7 @@
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/calculator.js"></script>
+        <script src="assets/js/test.js"></script>
         <!-- <script src="assets/js/application.js"></script> -->
     </body>
 </html>
