@@ -2,15 +2,15 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1">
-        <!-- <link rel="stylesheet" href="assets/css/application.css"> -->
+        <link rel="stylesheet" href="assets/css/application.css">
         <link rel="stylesheet" href="assets/css/calculator.css">
         <title>Calculator</title>
     </head>
     <body>
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="row my-1">
                 <div class="col-1">
                     col-1
@@ -158,9 +158,9 @@
                     col-12
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <!-- <form class="calculator">
+        <form class="calculator">
 
             <div class="calculator-head">
                 <div class="row">
@@ -246,10 +246,10 @@
 
             </div>
 
-        </form> -->
+        </form>
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/calculator.js"></script>
-        <!-- <script src="assets/js/application.js"></script> -->
+        <script src="assets/js/application.js"></script>
     </body>
 </html>
