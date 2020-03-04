@@ -160,7 +160,7 @@
             </div>
         </div> -->
 
-        <form class="calculator">
+        <form class="calculator mt-2">
 
             <div class="calculator-head">
                 <div class="row">
